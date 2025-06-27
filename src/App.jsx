@@ -1,12 +1,10 @@
+import Navbar from "./components/Navbar"
+
 function App() {
   return (
     <>
-      <div className="flex justify-center items-center h-screen">
+      <Navbar />
 
-        <h1 class="text-3xl font-bold underline">
-          Hello worlds!
-        </h1>
-      </div>
     </>
   )
 }
